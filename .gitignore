@@ -1,0 +1,241 @@
+# Unity generated #
+###################
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# Unity3D specific #
+####################
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Visual Studio / VS Code #
+###########################
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# JetBrains Rider #
+####################
+.idea/
+*.sln.iml
+
+# Python #
+##########
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# YOLOv8 / Ultralytics #
+########################
+# Model weights
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.pkl
+*.joblib
+
+# Datasets
+datasets/
+data/
+coco/
+coco128/
+*.db
+*.sqlite3
+
+# Detection outputs
+runs/
+detect/
+output/
+runs/detect/
+runs/segment/
+runs/classify/
+runs/obb/
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# TensorFlow / PyTorch #
+########################
+*.pth
+*.pkl
+*.h5
+*.keras
+*.pb
+*.meta
+*.index
+*.ckpt.data
+*.ckpt.index
+*.ckpt.meta
+
+# Project specific #
+#####################
+
+# Camera captures / frames
+captures/
+frames/
+screenshots/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+!placeholder.jpg
+!placeholder.png
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# Logs
+*.log
+logs/
+
+# OS generated files #
+#######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+desktop.ini
+
+# System Files #
+################
+*.lock
+*.part
+*.crdownload
+
+# Project specific exclusions #
+###############################
+
+# Python scripts that might contain sensitive info
+config.py
+settings_local.py
+secrets.py
+auth.json
+credentials.json
+
+# Keep sample data and placeholder assets
+!Assets/Models/*.fbx
+!Assets/Models/*.obj
+!Assets/Audio/*.mp3
+!Assets/Audio/*.wav
+!Assets/Video/*.mp4
+!Assets/Textures/*.png
+!Assets/Textures/*.jpg
+
+# Keep essential Python scripts but exclude outputs
+!*.py
+!requirements.txt
+!setup.py
+
+# Temp files from testing
+tmp/
+temp/
+test_outputs/
